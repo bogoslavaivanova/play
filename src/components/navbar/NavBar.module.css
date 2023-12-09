@@ -1,0 +1,58 @@
+/* NavBar.module.css */
+
+/* Navbar Container */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  z-index: 1000; /* Ensure Navbar is above other content */
+}
+
+/* Navbar List */
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+/* Navbar Items */
+.navbar-item {
+  margin-right: 20px;
+}
+
+/* Navbar Links */
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-link:hover {
+  color: #f8f9fa; /* Change link hover color */
+}
+
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: #333; /* Change background color */
+  padding: 10px 20px; /* Adjust padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  z-index: 1000; /* Ensure Navbar is above other content */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #fff; /* Change link color */
+  margin: 0 20px; /* Add spacing between elements */
+  font-weight: bold; /* Enhance readability */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+  color: #f8f9fa; /* Change link hover color */
+  text-decoration: none; /* Remove underline on hover */
+}
